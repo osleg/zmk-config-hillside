@@ -59,7 +59,7 @@
 &kp ESC         &kp APOS    &kp COMMA &kp DOT    &kp P    &kp Y                                     &kp F    &kp G    &kp C    &kp R    &kp L &kp BSLH
 &kp LCTRL       &kp A       &kp O     &kp E      &kp U    &kp I                                     &kp D    &kp H    &kp T    &kp N    &kp S &kp FSLH
 &mt LSHIFT LPAR &kp SEMI    &kp Q     &kp J      &kp K    &kp X  &kp Copy              &kp Paste   &kp B    &kp M    &kp W    &kp V    &kp Z &mt RSHIFT RPAR
-                &kp Undo                 &kp LGUI &lt L_LOWER TAB &kp SPC              &kp BSPC &lt L_RAISE ENTER &kp RALT             &kp Cut
+                &kp Undo  &none &kp LGUI &lt L_LOWER TAB &kp SPC              &kp BSPC &lt L_RAISE ENTER &kp RALT     &none   &kp Cut
       >;
     };
     qwerty_layer {
@@ -68,7 +68,7 @@
 _______  &kp Q    &kp W    &kp E    &kp R    &kp T                                     &kp Y    &kp U    &kp I     &kp O    &kp P    _______
 _______  &kp A    &kp S    &kp D    &kp F    &kp G                                     &kp H    &kp J    &kp K     &kp L    &kp SEMI &kp APOS
 _______  &kp Z    &kp X    &kp C    &kp V    &kp B            _______ _______          &kp N    &kp M    &kp COMMA &kp DOT  &kp FSLH _______
-                                          _______ _______ _______         _______ _______ _______ _______ _______
+                                          _______ _______ _______         _______ _______ _______ _______ _______ _______ _______
       >;
     };
     lower_layer {
@@ -77,7 +77,7 @@ _______  &kp Z    &kp X    &kp C    &kp V    &kp B            _______ _______   
 &kp GRAVE &kp EXCL  &kp AT   &kp HASH  &kp DLLR  &kp PRCNT                                    &kp STAR  &kp N7    &kp N8    &kp N9    &kp KP_PLUS   _______
 _______   &kp CARET &kp AMPS &kp UNDER &kp LBKT  &kp RBKT                                     &kp SLASH &kp N4    &kp N5    &kp N6    &kp KP_MINUS  _______
 _______   &kp SEMI  &kp LT   &kp GT    &kp LBRC  &kp RBRC                _______ _______      &kp N0    &kp N1    &kp N2    &kp N3    &kp KP_EQUAL  _______
-                                _______           _______ _______ _______                  _______   &mo L_ADJUST _______ _______
+                                _______     _______         _______ _______ _______                  _______   &mo L_ADJUST _______ _______ _______
       >;
     };
 
@@ -87,7 +87,7 @@ _______   &kp SEMI  &kp LT   &kp GT    &kp LBRC  &kp RBRC                _______
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                                   _______ _______ _______ _______ _______   &kp PG_UP
 &kp F7  &kp F8  &kp F9  &kp F10 &kp F11 &kp F12                                  &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp HOME &kp END
 _______ _______ _______ _______ _______ _______           _______ _______        _______ _______ _______ _______ _______   &kp PG_DN
-                        _______        _______   &mo L_ADJUST _______           _______ _______ _______ _______
+                        _______   _______       _______   &mo L_ADJUST _______           _______ _______ _______ _______ _______
       >;
     };
     adjust_layer {
@@ -96,7 +96,7 @@ _______ _______ _______ _______ _______ _______           _______ _______       
 &reset           &to L_QWERTY     &to L_BASE       &ext_power EP_TOG  &out OUT_TOG    &bt BT_NXT                                 &reset  &ext_power EP_ON  &ext_power EP_OFF  &none        &kp K_VOL_UP   &kp KP_NUM
 _______ _______ _______ _______ _______  &bt BT_CLR                                                                              &none   &none             &none              &none        &kp K_MUTE     &kp CAPS
 _______ _______ _______ _______ _______  _______                                                        _______ _______          &none   &kp K_PREV        &kp K_PP           &kp K_NEXT   &kp K_VOL_DN   &kp SLCK
-                                                                             _______ &kp LGUI _______  &kp SPC              &kp ENTER _______ &kp RALT _______
+                                                               _______                _______ &kp LGUI _______  &kp SPC              &kp ENTER _______ &kp RALT _______ _______
       >;
     };
   };
