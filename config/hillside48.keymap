@@ -94,7 +94,7 @@ _______ _______ _______ _______ _______ _______           _______ _______       
       label = "ADJUST";
       bindings = <
 &reset           &to L_QWERTY     &to L_BASE       &ext_power EP_TOG  &out OUT_TOG    &bt BT_NXT                                 &reset  &ext_power EP_ON  &ext_power EP_OFF  &none        &kp K_VOL_UP   &kp KP_NUM
-_______ _______ _______ _______ _______  &bt BT_CLR                                                                              &none   &none             &none              &none        &kp K_MUTE     &kp CAPSn
+_______ _______ _______ _______ _______  &bt BT_CLR                                                                              &none   &none             &none              &none        &kp K_MUTE     &kp CAPS
 _______ _______ _______ _______ _______  _______                                                        _______ _______          &none   &kp K_PREV        &kp K_PP           &kp K_NEXT   &kp K_VOL_DN   &kp SLCK
                  _______  _______ &kp LGUI _______  &kp SPC              &kp ENTER _______ &kp RALT _______ _______
       >;
