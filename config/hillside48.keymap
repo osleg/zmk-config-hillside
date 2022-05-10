@@ -68,7 +68,7 @@
 _______  &kp Q    &kp W    &kp E    &kp R    &kp T                                     &kp Y    &kp U    &kp I     &kp O    &kp P    _______
 _______  &kp A    &kp S    &kp D    &kp F    &kp G                                     &kp H    &kp J    &kp K     &kp L    &kp SEMI &kp APOS
 _______  &kp Z    &kp X    &kp C    &kp V    &kp B            _______ _______          &kp N    &kp M    &kp COMMA &kp DOT  &kp FSLH _______
-                                          _______ _______ _______         _______ _______ _______ _______ _______ _______ _______
+                       _______ _______ _______ _______ _______              _______ _______ _______ _______ _______
       >;
     };
     lower_layer {
@@ -77,7 +77,7 @@ _______  &kp Z    &kp X    &kp C    &kp V    &kp B            _______ _______   
 &kp GRAVE &kp EXCL  &kp AT   &kp HASH  &kp DLLR  &kp PRCNT                                    &kp STAR  &kp N7    &kp N8    &kp N9    &kp KP_PLUS   _______
 _______   &kp CARET &kp AMPS &kp UNDER &kp LBKT  &kp RBKT                                     &kp SLASH &kp N4    &kp N5    &kp N6    &kp KP_MINUS  _______
 _______   &kp SEMI  &kp LT   &kp GT    &kp LBRC  &kp RBRC                _______ _______      &kp N0    &kp N1    &kp N2    &kp N3    &kp KP_EQUAL  _______
-                                _______     _______         _______ _______ _______                  _______    _______ &mo L_ADJUST_______ _______
+                                _______ _______ _______ _______ _______                  _______    _______ &mo L_ADJUST _______ _______
       >;
     };
 
