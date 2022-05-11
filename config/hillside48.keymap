@@ -35,6 +35,10 @@
       key-positions = <1 2>;
       bindings = <&kp GRAVE>;
     };
+    combo_esc {
+      key-positions = <2 3>;
+      bindings = <&kp ESC>;
+    };
   };
 };
 
