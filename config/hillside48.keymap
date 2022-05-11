@@ -28,7 +28,7 @@
   combos {
     compatible = "zmk,combos";
     combo_cw {
-      key-positions = <24 37>;
+      key-positions = <42 43>;
       bindings = <&caps_word>;
     };
     combo_grave {
