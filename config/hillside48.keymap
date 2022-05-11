@@ -32,7 +32,7 @@
       bindings = <&caps_word>;
     };
     combo_grave {
-      key-position = <1 2>;
+      key-positions = <1 2>;
       bindings = <&kp GRAVE>;
     };
   };
