@@ -28,7 +28,7 @@
   combos {
     compatible = "zmk,combos";
     combo_cw {
-      key-positions = <40 45>;
+      key-positions = <24 37>;
       bindings = <&caps_word>;
     };
     combo_grave {
@@ -64,10 +64,10 @@
     default_layer {
       label = "DVORAK";
       bindings = <
-&kp ESC         &kp APOS    &kp COMMA &kp DOT    &kp P    &kp Y                                     &kp F    &kp G    &kp C    &kp R    &kp L &kp BSLH
+&kp GRAVE       &kp APOS    &kp COMMA &kp DOT    &kp P    &kp Y                                     &kp F    &kp G    &kp C    &kp R    &kp L &kp BSLH
 &kp LCTRL       &kp A       &kp O     &kp E      &kp U    &kp I                                     &kp D    &kp H    &kp T    &kp N    &kp S &kp FSLH
-&mt LSHIFT LPAR &kp SEMI    &kp Q     &kp J      &kp K    &kp X &kp  RALT                 &kp DEL   &kp B    &kp M    &kp W    &kp V    &kp Z &mt RSHIFT RPAR
-                &kp BSLH  &kp LGUI  &mt LSHIFT LPAR &kp SPC  &lt L_LOWER TAB         &lt L_RAISE ENTER &kp BSPC &mt RSHIFT RPAR &kp LCTRL  &kp FSLH
+&mt LSHIFT LPAR &kp SEMI    &kp Q     &kp J      &kp K    &kp X &kp PG_UP               &kp PG_DN   &kp B    &kp M    &kp W    &kp V    &kp Z &mt RSHIFT RPAR
+                &kp HOME  &kp LGUI  &lt L_LOWER TAB &kp SPC &kp  RALT                       &kp DEL &kp BSPC &lt L_RAISE ENTER &kp LCTRL  &kp END
       >;
     };
     qwerty_layer {
@@ -82,7 +82,7 @@ _______  &kp Z    &kp X    &kp C    &kp V    &kp B            _______ _______   
     lower_layer {
       label = "LOWER";
       bindings = <
-&kp GRAVE &kp EXCL  &kp AT   &kp HASH  &kp DLLR  &kp PRCNT                                    &kp STAR  &kp N7    &kp N8    &kp N9    &kp KP_PLUS   _______
+&kp ESC   &kp EXCL  &kp AT   &kp HASH  &kp DLLR  &kp PRCNT                                    &kp STAR  &kp N7    &kp N8    &kp N9    &kp KP_PLUS   _______
 _______   &kp CARET &kp AMPS &kp UNDER &kp LBKT  &kp RBKT                                     &kp SLASH &kp N4    &kp N5    &kp N6    &kp KP_MINUS  _______
 _______   &kp SEMI  &kp LT   &kp GT    &kp LBRC  &kp RBRC                _______ _______      &kp N0    &kp N1    &kp N2    &kp N3    &kp EQUAL     _______
                                 _______ _______ _______ _______ _______                  _______    _______ &mo L_ADJUST _______ _______
@@ -103,7 +103,7 @@ _______ &kp F10 &kp F11 _______ _______ _______           _______ _______       
       bindings = <
 &reset  &to L_QWERTY &to L_BASE &ext_power EP_TOG &out OUT_TOG    &bt BT_NXT                &reset  &ext_power EP_ON  &ext_power EP_OFF  &none        &kp K_VOL_UP   &kp KP_NUM
 _______ _______      _______    _______           _______         &bt BT_CLR                &none   &none             &none              &none        &kp K_MUTE     &kp CAPS
-_______ _______      _______    _______           _______         _______ _______   _______ &none   &kp K_PREV        &kp K_PP           &kp K_NEXT   &kp K_VOL_DN   &kp SLCK
+_______ _______      _______    _______           _______         _______ _______   _______ &none   &kp C_PREV        &kp C_PP           &kp C_NEXT   &kp K_VOL_DN   &kp SLCK
                                        _______  _______ &kp LGUI _______  &kp SPC   &kp ENTER _______ &kp RALT _______ _______
       >;
     };
