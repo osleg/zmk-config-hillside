@@ -28,12 +28,8 @@
   combos {
     compatible = "zmk,combos";
     combo_cw {
-      key-positions = <24 37>;
+      key-positions = <12 23>;
       bindings = <&caps_word>;
-    };
-    combo_grave {
-      key-positions = <1 2>;
-      bindings = <&kp GRAVE>;
     };
     combo_esc {
       key-positions = <2 3>;
@@ -44,11 +40,11 @@
 
 &lt {
   tapping-term-ms = <150>;
-  quick-tap-ms = <150>;
+  quick-tap-ms = <250>;
 };
 
 &mt {
-  tapping-term-ms = <150>;
+  tapping-term-ms = <110>;
   quick-tap-ms = <150>;
   flavor = "tap-preferred";
 };
@@ -84,7 +80,7 @@ _______  &kp Z    &kp X    &kp C    &kp V    &kp B            _______ _______   
       bindings = <
 &kp ESC   &kp EXCL  &kp AT   &kp HASH  &kp DLLR  &kp PRCNT                                    &kp STAR  &kp N7    &kp N8    &kp N9    &kp KP_PLUS   _______
 _______   &kp CARET &kp AMPS &kp UNDER &kp LBKT  &kp RBKT                                     &kp SLASH &kp N4    &kp N5    &kp N6    &kp KP_MINUS  _______
-_______   &kp SEMI  &kp LT   &kp GT    &kp LBRC  &kp RBRC                _______ _______      &kp N0    &kp N1    &kp N2    &kp N3    &kp EQUAL     _______
+_______   &kp COLON  &kp LT   &kp GT    &kp LBRC  &kp RBRC                _______ _______      &kp N0    &kp N1    &kp N2    &kp N3    &kp EQUAL     _______
                                 _______ _______ _______ _______ _______                  _______    _______ &mo L_ADJUST _______ _______
       >;
     };
