@@ -41,7 +41,7 @@
       compatible = "zmk,behavior-hold-tap";
       label = "HOMEROW_MODS";
       #binding-cells = <2>;
-      tapping-term-ms = <300>;
+      tapping-term-ms = <200>;
       quick_tap_ms = <0>;
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
@@ -71,10 +71,10 @@
     default_layer {
       label = "DVORAK";
       bindings = <
-&kp GRAVE       &kp APOS    &kp COMMA &kp DOT    &kp P    &kp Y                                     &kp F    &kp G    &kp C    &kp R    &kp L &kp BSLH
-&kp LCTRL       &hm LALT A  &hm LGUI O     &hm LCTRL E      &hm SHIFT U    &kp I                    &kp D    &hm RSHIFT H    &hm RCTRL T    &hm RGUI N    &hm RALT S &kp FSLH
-&mt LSHIFT LPAR &kp SEMI    &kp Q     &kp J      &kp K    &kp X &kp PG_UP                           &kp PG_DN   &kp B    &kp M    &kp W    &kp V    &kp Z &mt RSHIFT RPAR
-                &kp HOME  &kp LGUI  &lt L_LOWER TAB &kp SPC &kp  RALT                       &kp DEL &kp BSPC &lt L_RAISE ENTER &kp LCTRL  &kp END
+&kp GRAVE       &kp APOS    &kp COMMA      &kp DOT          &kp P           &kp Y                         &kp F    &kp G           &kp C          &kp R         &kp L      &kp BSLH
+&kp LCTRL       &hm LALT A  &hm LGUI O     &hm LCTRL E      &hm LSHIFT U    &kp I                         &kp D    &hm RSHIFT H    &hm RCTRL T    &hm RGUI N    &hm RALT S &kp FSLH
+&mt LSHIFT LPAR &kp SEMI    &kp Q          &kp J            &kp K           &kp X &kp PG_UP   &kp PG_DN   &kp B    &kp M           &kp W          &kp V         &kp Z      &mt RSHIFT RPAR
+                &kp HOME  &kp LGUI  &lt L_LOWER TAB &kp SPC &kp  RALT                                    &kp DEL &kp BSPC &lt L_RAISE ENTER &kp LCTRL  &kp END
       >;
     };
     qwerty_layer {
