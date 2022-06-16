@@ -35,23 +35,23 @@
       key-positions = <2 3>;
       bindings = <&kp ESC>;
     };
-    {
+    back_slash {
       key-positions = <10 22>;
       bindings = <&kp BSLH>;
     };
-    {
+    forward_slash {
       key-positions = <22 34>;
-      bindings = <&kp BSLH>;
+      bindings = <&kp FSLH>;
     };
-    {
+    grave {
       key-positions = <1 13>;
       bindings = <&kp GRAVE>;
     };
-    {
+    lpar {
       key-positions = <15 16>;
       bindings = <&kp LPAR>;
     };
-    {
+    rpar {
       key-positions = <16 17>;
       bindings = <&kp RPAR>;
     };
