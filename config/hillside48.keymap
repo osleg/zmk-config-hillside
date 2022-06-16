@@ -47,6 +47,14 @@
       key-positions = <1 13>;
       bindings = <&kp GRAVE>;
     };
+    {
+      key-positions = <15 16>;
+      bindings = <&kp LPAR>;
+    };
+    {
+      key-positions = <16 17>;
+      bindings = <&kp RPAR>;
+    };
   };
 
   behaviors {
