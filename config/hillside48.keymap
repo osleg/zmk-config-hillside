@@ -28,14 +28,27 @@
   combos {
     compatible = "zmk,combos";
     combo_cw {
-      key-positions = <12 23>;
+      key-positions = <13 22>;
       bindings = <&caps_word>;
     };
     combo_esc {
       key-positions = <2 3>;
       bindings = <&kp ESC>;
     };
+    {
+      key-positions = <10 22>;
+      bindings = <&kp BSLH>;
+    };
+    {
+      key-positions = <22 34>;
+      bindings = <&kp BSLH>;
+    };
+    {
+      key-positions = <1 13>;
+      bindings = <&kp GRAVE>;
+    };
   };
+
   behaviors {
     hm: homerow_mods {
       compatible = "zmk,behavior-hold-tap";
