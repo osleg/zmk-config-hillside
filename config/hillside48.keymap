@@ -41,7 +41,7 @@
       bindings = <&kp BSLH>;
     };
     forward_slash {
-      key-positions = <22 36>;
+      key-positions = <9 10>;
       bindings = <&kp FSLH>;
     };
     grave {
