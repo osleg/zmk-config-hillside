@@ -58,7 +58,7 @@
     shift {
       key-positions = <13 25>;
       bindings = <&skq LSHIFT>;
-    }
+    };
   };
 
   behaviors {
