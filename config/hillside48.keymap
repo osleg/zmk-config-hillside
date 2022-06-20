@@ -56,7 +56,7 @@
       bindings = <&kp RPAR>;
     };
     shift {
-      key-positions = <13 25>;
+      key-positions = <2 24>;
       bindings = <&skq LSHIFT>;
     };
   };
