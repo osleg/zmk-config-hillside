@@ -59,11 +59,11 @@
     lshift {
       key-positions = <3 15>;
       bindings = <&skq LSHIFT>;
-    }
+    };
     rshift {
       key-positions = <8 20>;
       bindings = <&skq RSHIFT>;
-    };;
+    };
   };
 
   behaviors {
