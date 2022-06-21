@@ -53,7 +53,7 @@
       bindings = <&kp LPAR>;
     };
     rpar {
-      key-positions = <16 17>;
+      key-positions = <19 20>;
       bindings = <&kp RPAR>;
     };
     lshift {
