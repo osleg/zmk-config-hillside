@@ -45,7 +45,7 @@
       bindings = <&kp BSLH>;
     };
     lshift {
-      key-positions = <13 14>;
+      key-positions = <14 15>;
       bindings = <&skq LSHIFT>;
     };
     lpar {
@@ -57,7 +57,7 @@
       bindings = <&kp RPAR>;
     };
     rshift {
-      key-positions = <21 22>;
+      key-positions = <20 21>;
       bindings = <&skq RSHIFT>;
     };
     combo_cw {
