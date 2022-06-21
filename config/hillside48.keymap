@@ -28,25 +28,25 @@
   combos {
     compatible = "zmk,combos";
     timeout-ms = <50>; 
-    combo_cw {
-      key-positions = <13 22>;
-      bindings = <&caps_word>;
+    grave {
+      key-positions = <1 2>;
+      bindings = <&kp GRAVE>;
     };
     combo_esc {
       key-positions = <2 3>;
       bindings = <&kp ESC>;
     };
-    back_slash {
-      key-positions = <9 10>;
-      bindings = <&kp BSLH>;
-    };
     forward_slash {
       key-positions = <8 9>;
       bindings = <&kp FSLH>;
     };
-    grave {
-      key-positions = <1 2>;
-      bindings = <&kp GRAVE>;
+    back_slash {
+      key-positions = <9 10>;
+      bindings = <&kp BSLH>;
+    };
+    lshift {
+      key-positions = <13 14>;
+      bindings = <&skq LSHIFT>;
     };
     lpar {
       key-positions = <15 16>;
@@ -56,13 +56,13 @@
       key-positions = <19 20>;
       bindings = <&kp RPAR>;
     };
-    lshift {
-      key-positions = <13 14>;
-      bindings = <&skq LSHIFT>;
-    };
     rshift {
-      key-positions = <18 19>;
+      key-positions = <21 22>;
       bindings = <&skq RSHIFT>;
+    };
+    combo_cw {
+      key-positions = <13 22>;
+      bindings = <&caps_word>;
     };
   };
 
