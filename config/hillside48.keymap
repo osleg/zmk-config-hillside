@@ -44,21 +44,21 @@
       key-positions = <9 10>;
       bindings = <&kp BSLH>;
     };
+    lpar {
+      key-positions = <13 14>;
+      bindings = <&kp LPAR>;
+    };
     lshift {
       key-positions = <14 15>;
       bindings = <&skq LSHIFT>;
     };
-    lpar {
-      key-positions = <15 16>;
-      bindings = <&kp LPAR>;
-    };
-    rpar {
-      key-positions = <19 20>;
-      bindings = <&kp RPAR>;
-    };
     rshift {
       key-positions = <20 21>;
       bindings = <&skq RSHIFT>;
+    };
+    rpar {
+      key-positions = <21 22>;
+      bindings = <&kp RPAR>;
     };
     combo_cw {
       key-positions = <13 22>;
