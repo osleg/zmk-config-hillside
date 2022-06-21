@@ -37,7 +37,7 @@
       bindings = <&kp ESC>;
     };
     back_slash {
-      key-positions = <10 22>;
+      key-positions = <9 10>;
       bindings = <&kp BSLH>;
     };
     forward_slash {
@@ -45,7 +45,7 @@
       bindings = <&kp FSLH>;
     };
     grave {
-      key-positions = <1 13>;
+      key-positions = <1 2>;
       bindings = <&kp GRAVE>;
     };
     lpar {
@@ -57,11 +57,11 @@
       bindings = <&kp RPAR>;
     };
     lshift {
-      key-positions = <3 15>;
+      key-positions = <13 14>;
       bindings = <&skq LSHIFT>;
     };
     rshift {
-      key-positions = <8 20>;
+      key-positions = <18 19>
       bindings = <&skq RSHIFT>;
     };
   };
