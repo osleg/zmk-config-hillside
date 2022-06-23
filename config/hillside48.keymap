@@ -90,8 +90,7 @@
       #binding-cells = <0>;
       tapping-term-ms = <200>;
       bindings = <&lt L_LOWER TAB>, <_______>, <&tog L_LOWER>;
-      };
-    }
+    };
   };
 };
 
