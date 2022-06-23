@@ -93,7 +93,7 @@
     };
     tdlr: tap_dance_layer_raise {
       compatible = "zmk,behavior-tap-dance";
-      label = "TAP_DANCE_m";
+      label = "TAP_DANCE_1";
       #binding-cells = <0>;
       tapping-term-ms = <125>;
       bindings = <&lt L_RAISE ENTER>, <&kp ENTER>, <&tog L_RAISE>;
@@ -119,7 +119,7 @@
 &none       &kp APOS    &kp COMMA &kp DOT    &kp P    &kp Y                                           &kp F    &kp G    &kp C    &kp R    &kp L &none
 &none       &kp A       &kp O     &kp E      &kp U    &kp I                                           &kp D    &kp H    &kp T    &kp N    &kp S &none
 &none       &kp SEMI    &kp Q     &kp J      &kp K    &kp X &kp LPAR                       &kp RPAR   &kp B    &kp M    &kp W    &kp V    &kp Z &none
-                             &kp HOME  &kp LGUI &tdl  &kp SPC &kp RALT        &kp DEL &kp BSPC &tdlr &kp LCTRL  &kp END
+                             &kp HOME  &kp LGUI &tdll  &kp SPC &kp RALT        &kp DEL &kp BSPC &tdlr &kp LCTRL  &kp END
       >;
     };
     qwerty_layer {
