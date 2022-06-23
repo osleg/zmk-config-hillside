@@ -103,7 +103,7 @@
 
 &lt {
   tapping-term-ms = <125>;
-  quick-tap-ms = <130>;
+  quick-tap-ms = <0>;
 };
 
 &caps_word {
