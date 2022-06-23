@@ -95,15 +95,15 @@
       compatible = "zmk,behavior-tap-dance";
       label = "TAP_DANCE_1";
       #binding-cells = <0>;
-      tapping-term-ms = <125>;
+      tapping-term-ms = <135>;
       bindings = <&lt L_RAISE ENTER>, <&kp ENTER>, <&tog L_RAISE>;
     };
   };
 };
 
 &lt {
-  tapping-term-ms = <150>;
-  quick-tap-ms = <0>;
+  tapping-term-ms = <125>;
+  quick-tap-ms = <130>;
 };
 
 &caps_word {
