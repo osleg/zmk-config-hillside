@@ -48,6 +48,14 @@
       key-positions = <13 14>;
       bindings = <&kp LPAR>;
     };
+  lshift {
+      key-positions = <14 15>;
+      bindings = <&skq LSHIFT>;
+    };
+    rshift {
+      key-positions = <20 21>;
+      bindings = <&skq RSHIFT>;
+    }; 
     rpar {
       key-positions = <21 22>;
       bindings = <&kp RPAR>;
@@ -111,7 +119,7 @@
 &none       &kp APOS    &kp COMMA &kp DOT    &kp P    &kp Y                                           &kp F    &kp G    &kp C    &kp R    &kp L &none
 &none       &kp A       &kp O     &kp E      &kp U    &kp I                                           &kp D    &kp H    &kp T    &kp N    &kp S &none
 &none       &kp SEMI    &kp Q     &kp J      &kp K    &kp X &kp LPAR                       &kp RPAR   &kp B    &kp M    &kp W    &kp V    &kp Z &none
-                             &kp HOME  &kp LGUI &lt L_LOWER TAB  &kp SPC &kp RALT        &kp DEL &hm LSHIFT BSPC &lt L_RAISE ENTER &kp LCTRL  &kp END
+                             &kp HOME  &kp LGUI &lt L_LOWER TAB  &kp SPC &kp RALT        &kp DEL &kp BSPC &lt L_RAISE ENTER &kp LCTRL  &kp END
       >;
     };
     qwerty_layer {
