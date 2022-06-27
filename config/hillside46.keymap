@@ -121,7 +121,7 @@
 &none       &kp SEMI    &kp Q     &kp J      &kp K    &kp X &kp LPAR                       &kp RPAR   &kp B    &kp M    &kp W    &kp V    &kp Z &none
                                &kp LGUI &lt L_LOWER TAB  &kp SPC &kp RALT        &kp DEL &kp BSPC &lt L_RAISE ENTER &kp LCTRL  
       >;
-      sesnsor-bindings = <&inc_dec_kp RIGHT LEFT>;
+      sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
     };
     qwerty_layer {
       label = "QWERTY";
