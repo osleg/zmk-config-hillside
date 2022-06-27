@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: osleg
-      url-base: https://github.com/osleg/zmk.git
+      url-base: https://github.com/osleg
   projects:
     - name: zmk
       remote: osleg
