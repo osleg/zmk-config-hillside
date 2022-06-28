@@ -3,11 +3,15 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: osleg
-      url-base: https://github.com/osleg
+      url-base: https://github.com/osleg/
   projects:
+    # - name: zmk
+    #   remote: osleg
+    #   revision: encoders
+    #   import: app/west.yml
     - name: zmk
-      remote: osleg
-      revision: encoders
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
