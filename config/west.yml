@@ -5,13 +5,13 @@ manifest:
     - name: osleg
       url-base: https://github.com/osleg/
   projects:
-    # - name: zmk
-    #   remote: osleg
-    #   revision: encoders
-    #   import: app/west.yml
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: osleg
+      revision: dev
       import: app/west.yml
+    #- name: zmk
+    #  remote: zmkfirmware
+    #  revision: main
+    #  import: app/west.yml
   self:
     path: config
