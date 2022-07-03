@@ -122,6 +122,7 @@
                                &kp LGUI &lt L_LOWER TAB  &kp SPC &kp RALT        &kp DEL &kp BSPC &lt L_RAISE ENTER &kp LCTRL  
       >;
       sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
+      sensor-bindings = <&inc_dec_kp UP DOWN>;
     };
     qwerty_layer {
       label = "QWERTY";
