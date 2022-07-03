@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: osleg
-      revision: dev
+      revision: main
       import: app/west.yml
     #- name: zmk
     #  remote: zmkfirmware
