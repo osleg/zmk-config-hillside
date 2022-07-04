@@ -154,11 +154,12 @@ _______ &kp F10 &kp F11 &kp F12 _______ _______           _______ _______       
     adjust_layer {
       label = "ADJUST";
       bindings = <
-_______ &to L_QWERTY &to L_BASE &ext_power EP_TOG &out OUT_TOG    &bt BT_NXT                &kp KP_NUM &kp CAPS          &kp SLCK           &none        &kp C_VOL_UP   &none
-_______ &reset      _______    _______           _______         &bt BT_CLR                 &reset     &none             &none              &none        &kp C_MUTE     &none
-_______ _______      _______    _______           _______         _______ _______   _______ &none      &kp C_PREV        &kp C_PP           &kp C_NEXT   &kp C_VOL_DN   &none
+_______ &to L_QWERTY &to L_BASE &ext_power EP_TOG &out OUT_TOG    &bt BT_NXT                &none      &none     &none     &none     &kp KP_NUM   &none
+_______ &reset      _______    _______           _______         &bt BT_CLR                 &reset     &none     &none     &none     &kp CAPS     &none
+_______ _______      _______    _______           _______         _______ &kp C_PP   &kp C_MUTE &none  _______   _______   _______   &kp SLCK     &none
                                         _______ &kp LGUI _______  &kp SPC   &kp ENTER _______ &kp RALT _______ 
       >;
+      sensor-bindings = <&inc_dec_kp C_NEXT C_PREV &inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
   };
 };
