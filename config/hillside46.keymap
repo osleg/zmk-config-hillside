@@ -123,6 +123,7 @@
       >;
       sensor-bindings = <&inc_dec_kp RIGHT LEFT &inc_dec_kp UP DOWN>;
     };
+
     qwerty_layer {
       label = "QWERTY";
       bindings = <
@@ -131,7 +132,9 @@ _______  &kp A    &kp S    &kp D    &kp F    &kp G                              
 _______  &kp Z    &kp X    &kp C    &kp V    &kp B            _______ _______          &kp N    &kp M    &kp COMMA &kp DOT  &kp FSLH _______
                         _______ _______ _______ _______              _______ _______ _______ _______ 
       >;
+      sensor-bindings = <&inc_dec_kp RIGHT LEFT &inc_dec_kp UP DOWN>;
     };
+
     lower_layer {
       label = "LOWER";
       bindings = <
@@ -140,6 +143,7 @@ _______   &kp CARET &kp AMPS &kp UNDER &kp LBKT  &kp RBKT                       
 _______   &kp COLON  &kp LT   &kp GT    &kp LBRC  &kp RBRC                _______ _______      &kp N0    &kp N1    &kp N2    &kp N3    &kp EQUAL     _______
                                 _______ _______ _______ _______                  _______    _______ &mo L_ADJUST _______ 
       >;
+      sensor-bindings = <&inc_dec_kp RIGHT LEFT &inc_dec_kp UP DOWN>;
     };
 
     raise_layer {
@@ -150,7 +154,9 @@ _______ &kp F6  &kp F7  &kp F8  &kp F9  &kp F10                                 
 _______ &kp F10 &kp F11 &kp F12 _______ _______           _______ _______        _______  _______   _______   _______     _______ _______
                           _______  &mo L_ADJUST  _______  _______           _______ _______ _______ _______ 
       >;
+      sensor-bindings = <&inc_dec_kp RIGHT LEFT &inc_dec_kp UP DOWN>;
     };
+    
     adjust_layer {
       label = "ADJUST";
       bindings = <
