@@ -13,9 +13,10 @@
 
 #define L_BASE 0
 #define L_QWERTY 1
-#define L_LOWER 2
-#define L_RAISE 3
-#define L_ADJUST 4
+#define L_ENGRAM 2
+#define L_LOWER 3
+#define L_RAISE 4
+#define L_ADJUST 5
 
 #define _______ &trans
 
@@ -135,6 +136,17 @@ _______  &kp Z    &kp X    &kp C    &kp V    &kp B            _______ _______   
       sensor-bindings = <&inc_dec_kp RIGHT LEFT &inc_dec_kp UP DOWN>;
     };
 
+    engram_layer {
+      label = "ENGRAM";
+      bindings = <
+_______  &kp B    &kp Y    &kp O    &kp U    &kp COMMA                                 &kp FSLH  &kp L    &kp D     &kp W    &kp V    _______
+_______  &kp C    &kp I    &kp E    &kp A    &kp DOT                                   &kp SEMI  &kp H    &kp T     &kp S    &kp N    _______
+_______  &kp G    &kp X    &kp J    &kp K    &kp Z            _______ _______          &kp Q     &kp R    &kp M     &kp F    &kp P    _______
+                        _______ _______ _______ _______              _______ _______ _______ _______ 
+      >;
+      sensor-bindings = <&inc_dec_kp RIGHT LEFT &inc_dec_kp UP DOWN>;
+    };
+
     lower_layer {
       label = "LOWER";
       bindings = <
@@ -160,9 +172,9 @@ _______ &kp F10 &kp F11 &kp F12 _______ _______           _______ _______       
     adjust_layer {
       label = "ADJUST";
       bindings = <
-_______ &to L_QWERTY &to L_BASE &ext_power EP_TOG &out OUT_TOG    &bt BT_NXT                &none      &none     &none     &none     &kp KP_NUM   &none
-_______ &reset      _______    _______           _______         &bt BT_CLR                 &reset     &none     &none     &none     &kp CAPS     &none
-_______ _______      _______    _______           _______         _______ &kp C_PP   &kp C_MUTE &none  _______   _______   _______   &kp SLCK     &none
+_______ &to L_BASE &to L_QWERTY &to L_ENGRAM  &none     &none                      &ext_power EP_TOG &out OUT_TOG  &bt BT_NXT   &none     &kp KP_NUM   &none
+_______ &reset       _______    _______       _______   &bt BT_CLR                 &reset            &none         &none        &none     &kp CAPS     &none
+_______ _______      _______    _______       _______   _______ &kp C_PP   &kp C_MUTE &none  _______   _______   _______   &kp SLCK     &none
                                         _______ &kp LGUI _______  &kp SPC   &kp ENTER _______ &kp RALT _______ 
       >;
       sensor-bindings = <&inc_dec_kp C_NEXT C_PREV &inc_dec_kp C_VOL_UP C_VOL_DN>;
