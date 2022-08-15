@@ -139,7 +139,7 @@ _______  &kp Z    &kp X    &kp C    &kp V    &kp B            _______ _______   
     engram_layer {
       label = "ENGRAM";
       bindings = <
-_______  &kp B    &kp Y    &kp O    &kp U    &kp COMMA                                 &kp FSLH  &kp L    &kp D     &kp W    &kp V    _______
+_______  &kp B    &kp Y    &kp O    &kp U    &kp COMMA                                 &kp APOS  &kp L    &kp D     &kp W    &kp V    _______
 _______  &kp C    &kp I    &kp E    &kp A    &kp DOT                                   &kp SEMI  &kp H    &kp T     &kp S    &kp N    _______
 _______  &kp G    &kp X    &kp J    &kp K    &kp Z            _______ _______          &kp Q     &kp R    &kp M     &kp F    &kp P    _______
                         _______ _______ _______ _______              _______ _______ _______ _______ 
