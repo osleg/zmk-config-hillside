@@ -28,7 +28,7 @@
 / {
   combos {
     compatible = "zmk,combos";
-    timeout-ms = <15>;
+    timeout-ms = <5>;
     grave {
       key-positions = <1 2>;
       bindings = <&kp GRAVE>;
