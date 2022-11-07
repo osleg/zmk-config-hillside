@@ -30,11 +30,11 @@
     compatible = "zmk,combos";
     timeout-ms = <2>;
     grave {
-      key-positions = <1 13>;
+      key-positions = <2 14>;
       bindings = <&kp GRAVE>;
     };
     combo_esc {
-      key-positions = <2 14>;
+      key-positions = <3 15>;
       bindings = <&kp ESC>;
     };
     forward_slash {
@@ -46,19 +46,19 @@
       bindings = <&kp BSLH>;
     };
     lpar {
-      key-positions = <13 14>;
+      key-positions = <1 13>;
       bindings = <&kp LPAR>;
     };
    lshift {
-      key-positions = <3 15>;
+      key-positions = <4 16>;
       bindings = <&skq LSHIFT>;
     };
     rshift {
-      key-positions = <8 20>;
+      key-positions = <7 19>;
       bindings = <&skq RSHIFT>;
     }; 
     rpar {
-      key-positions = <21 22>;
+      key-positions = <10 22>;
       bindings = <&kp RPAR>;
     };
     combo_cw {
