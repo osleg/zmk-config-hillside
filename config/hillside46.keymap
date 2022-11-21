@@ -58,9 +58,9 @@
       key-positions = <15 27>;
       bindings = <&kp APOS>;
     };
-    coln {
+    semi {
       key-positions = <16 28>;
-      bindings = <&kp COLON>;
+      bindings = <&kp SEMI>;
     };
 
     lshift {
