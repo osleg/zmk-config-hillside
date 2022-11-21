@@ -51,15 +51,15 @@
     };
 
     z {
-      key-positions = <13 25>;
+      key-positions = <14 26>;
       bindings = <&kp Z>;
     };
     quot {
-      key-positions = <14 26>;
+      key-positions = <15 27>;
       bindings = <&kp APOS>;
     };
     coln {
-      key-positions = <15 27>;
+      key-positions = <16 28>;
       bindings = <&kp COLON>;
     };
 
