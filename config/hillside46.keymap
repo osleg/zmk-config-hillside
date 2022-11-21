@@ -49,7 +49,20 @@
       key-positions = <4 16>;
       bindings = <&kp LPAR>;
     };
-   lshift {
+
+    coln {
+      key-positions = <16 30>;
+      bindings = <&kp COLON>;
+    };
+    quot {
+      key-positions = <15 29>;
+      bindings = <&kp APOS>;
+    };
+    z {
+      key-positions = <14 28>;
+      bindings = <&kp Z>;
+    };
+    lshift {
       key-positions = <3 15>;
       bindings = <&skq LSHIFT>;
     };
@@ -61,6 +74,22 @@
       key-positions = <7 19>;
       bindings = <&kp RPAR>;
     };
+     
+    comm {
+      key-positions = <19 34>;
+      bindings = <&kp COMMA>;
+    };
+     
+    dot {
+      key-positions = <20 35>;
+      bindings = <&kp DOT>;
+    };
+
+    q {
+      key-positions = <21 36>;
+      bindings = <&kp Q>;
+    };
+
     combo_cw {
       key-positions = <43 40>;
       bindings = <&caps_word>;
@@ -131,8 +160,8 @@
     default_layer {
       label = "ENGRAM";
       bindings = <
-&none  &kp B    &kp Y    &kp O    &kp U    &tdad                                     &tdlg     &kp L    &kp D     &kp W    &kp V    &none
-&none  &kp C    &kp I    &kp E    &kp A    &tdcs                                     &tddc     &kp H    &kp T     &kp S    &kp N    &none
+&none  &kp B    &kp Y    &kp O    &kp U    &kp SEMI                                  &kp COMMA &kp L    &kp D     &kp W    &kp V    &none
+&none  &kp C    &kp I    &kp E    &kp A    &kp APOS                                  &kp DOT   &kp H    &kp T     &kp S    &kp N    &none
 &none  &kp G    &kp X    &kp J    &kp K    &kp Z       &kp PG_UP  &kp PG_DN          &kp Q     &kp R    &kp M     &kp F    &kp P    &none
                      &kp LGUI &lt L_LOWER TAB  &kp SPC &kp RALT        &kp DEL &kp BSPC &lt L_RAISE ENTER &kp LCTRL  
       >;
