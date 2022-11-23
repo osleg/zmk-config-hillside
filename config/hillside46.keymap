@@ -46,7 +46,7 @@
       bindings = <&kp BSLH>;
     };
     lpar {
-      key-positions = <4 16>;
+      key-positions = <15 27>;
       bindings = <&kp LPAR>;
     };
 
@@ -59,7 +59,7 @@
       bindings = <&kp APOS>;
     };
     semi {
-      key-positions = <15 27>;
+      key-positions = <4 16>;
       bindings = <&kp SEMI>;
     };
 
@@ -72,12 +72,12 @@
       bindings = <&skq RSHIFT>;
     }; 
     rpar {
-      key-positions = <7 19>;
+      key-positions = <20 34>;
       bindings = <&kp RPAR>;
     };
      
     comm {
-      key-positions = <20 34>;
+      key-positions = <7 19>;
       bindings = <&kp COMMA>;
     };
      
