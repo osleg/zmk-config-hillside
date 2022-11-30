@@ -51,7 +51,7 @@
     };
 
     z {
-      key-positions = <14 26>;
+      key-positions = <13 25>;
       bindings = <&kp Z>;
     };
     quot {
@@ -87,7 +87,7 @@
     };
 
     q {
-      key-positions = <21 35>;
+      key-positions = <22 36>;
       bindings = <&kp Q>;
     };
 
