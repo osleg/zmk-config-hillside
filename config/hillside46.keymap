@@ -55,7 +55,7 @@
       bindings = <&kp Z>;
     };
     quot {
-      key-positions = <16 28>;
+      key-positions = <27 28>;
       bindings = <&kp APOS>;
     };
     semi {
@@ -82,7 +82,7 @@
     };
      
     dot {
-      key-positions = <19 33>;
+      key-positions = <32 33>;
       bindings = <&kp DOT>;
     };
 
