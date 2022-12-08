@@ -82,7 +82,7 @@
     };
      
     dot {
-      key-positions = <32 33>;
+      key-positions = <33 34>;
       bindings = <&kp DOT>;
     };
 
