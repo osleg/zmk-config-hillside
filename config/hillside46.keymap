@@ -92,7 +92,7 @@
     };
 
     combo_cw {
-      key-positions = <43 40>;
+      key-positions = <28 33>;
       bindings = <&caps_word>;
     };
   };
