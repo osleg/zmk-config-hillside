@@ -46,12 +46,12 @@
       bindings = <&kp BSLH>;
     };
     lpar {
-      key-positions = <15 27>;
+      key-positions = <26 28>;
       bindings = <&kp LPAR>;
     };
 
     z {
-      key-positions = <14 26>;
+      key-positions = <26 27>;
       bindings = <&kp Z>;
     };
     quot {
@@ -72,7 +72,7 @@
       bindings = <&skq RSHIFT>;
     }; 
     rpar {
-      key-positions = <20 34>;
+      key-positions = <33 35>;
       bindings = <&kp RPAR>;
     };
      
@@ -87,7 +87,7 @@
     };
 
     q {
-      key-positions = <21 35>;
+      key-positions = <34 35>;
       bindings = <&kp Q>;
     };
 
