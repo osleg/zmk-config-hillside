@@ -98,15 +98,6 @@
   };
 
   behaviors {
-    hm: shift {
-      compatible = "zmk,behavior-hold-tap";
-      label = "SHIFT_HOLD_TAP";
-      #binding-cells = <2>;
-      tapping-term-ms = <150>;
-      quick_tap_ms = <150>;
-      flavor = "tap-preferred";
-      bindings = <&kp>, <&kp>;
-    };
     skq: sticky_key_quick_release {
       compatible = "zmk,behavior-sticky-key";
       label = "STICKY_KEY_QUICK_RELEASE";
@@ -115,46 +106,25 @@
       release-after-ms = <1000>;
       quick-release;
     }; 
-    tddc: tap_dance_dot_comma {
-      compatible = "zmk,behavior-tap-dance";
-      label = "TAP_DANCE_0";
-      #binding-cells = <0>;
-      tapping-term-ms = <125>;
-      bindings = <&kp DOT>, <&kp COMMA>;
-    };
     tdlg: tap_dance_less_greater {
       compatible = "zmk,behavior-tap-dance";
       label = "TAP_DANCE_1";
       #binding-cells = <0>;
-      tapping-term-ms = <150>;
+      tapping-term-ms = <200>;
       bindings = <&kp GT>, <&kp LT>;
-    };
-    tdcs: tap_dance_col_semi {
-      compatible = "zmk,behavior-tap-dance";
-      label = "TAP_DANCE_2";
-      #binding-cells = <0>;
-      tapping-term-ms = <125>;
-      bindings = <&kp COLON>, <&kp SEMI>;
-    };
-    tdad: tap_dance_apos_dqt {
-      compatible = "zmk,behavior-tap-dance";
-      label = "TAP_DANCE_3";
-      #binding-cells = <0>;
-      tapping-term-ms = <125>;
-      bindings = <&kp APOS>, <&kp LS(APOS)>;
     };
     tdbk: tap_dance_brakets {
       compatible = "zmk,behavior-tap-dance";
       label = "TAP_DANCE_BRAKETS";
       #binding-cells = <0>;
-      tapping-term-ms = <150>;
+      tapping-term-ms = <200>;
       bindings = <&kp LBKT>, <&kp RBKT>;
     };
     tdbc: tap_dance_braces {
       compatible = "zmk,behavior-tap-dance";
       label = "TAP_DANCE_BRACES";
       #binding-cells = <0>;
-      tapping-term-ms = <150>;
+      tapping-term-ms = <200>;
       bindings = <&kp LBRC>, <&kp RBRC>;
     };
   };
