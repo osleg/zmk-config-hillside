@@ -126,7 +126,7 @@
       compatible = "zmk,behavior-tap-dance";
       label = "TAP_DANCE_1";
       #binding-cells = <0>;
-      tapping-term-ms = <125>;
+      tapping-term-ms = <150>;
       bindings = <&kp GT>, <&kp LT>;
     };
     tdcs: tap_dance_col_semi {
@@ -142,6 +142,20 @@
       #binding-cells = <0>;
       tapping-term-ms = <125>;
       bindings = <&kp APOS>, <&kp LS(APOS)>;
+    };
+    tdbk: tap_dance_brakets {
+      compatible = "zmk,behavior-tap-dance";
+      label = "TAP_DANCE_BRAKETS";
+      #binding-cells = <0>;
+      tapping-term-ms = <150>;
+      bindings = <&kp LBKT>, <&kp RBKT>;
+    };
+    tdbc: tap_dance_braces {
+      compatible = "zmk,behavior-tap-dance";
+      label = "TAP_DANCE_BRACES";
+      #binding-cells = <0>;
+      tapping-term-ms = <150>;
+      bindings = <&kp LBRC>, <&kp RBRC>;
     };
   };
 };
@@ -195,9 +209,9 @@ _______       &kp SEMI    &kp Q     &kp J      &kp K    &kp X &kp PG_UP         
     lower_layer {
       label ="LOWER";
       bindings = <
-&kp ESC   &kp EXCL  &kp AT   &kp HASH  &kp DLLR  &kp PRCNT                                    &kp STAR  &kp N7    &kp N8    &kp N9    &kp KP_PLUS   _______
-_______   &kp CARET &kp AMPS &kp UNDER &kp LBKT  &kp RBKT                                     &kp SLASH &kp N4    &kp N5    &kp N6    &kp KP_MINUS  _______
-_______   &kp COLON  &kp LT   &kp GT    &kp LBRC  &kp RBRC                _______ _______      &kp N0    &kp N1    &kp N2    &kp N3    &kp EQUAL     _______
+&kp ESC   &kp EXCL  &kp AT     &kp HASH  &kp DLLR  &kp PRCNT                                    &kp STAR  &kp N7    &kp N8    &kp N9    &kp KP_PLUS   _______
+_______   &kp CARET &kp AMPS   &kp UNDER &tdbk     &kp RBKT                                     &kp SLASH &kp N4    &kp N5    &kp N6    &kp KP_MINUS  _______
+_______   &kp COLON &kp PRCNT  &tdlg     &tdbc     &kp RBRC                _______ _______      &kp N0    &kp N1    &kp N2    &kp N3    &kp EQUAL     _______
                                 _______ _______ _______ _______                  _______    _______ &mo L_ADJUST _______ 
       >;
       sensor-bindings = <&inc_dec_kp RIGHT LEFT &inc_dec_kp UP DOWN>;
