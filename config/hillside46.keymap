@@ -110,21 +110,21 @@
       compatible = "zmk,behavior-tap-dance";
       label = "TAP_DANCE_1";
       #binding-cells = <0>;
-      tapping-term-ms = <200>;
-      bindings = <&kp GT>, <&kp LT>;
+      tapping-term-ms = <225>;
+      bindings = <&kp LT>, <&kp GT>;
     };
     tdbk: tap_dance_brakets {
       compatible = "zmk,behavior-tap-dance";
       label = "TAP_DANCE_BRAKETS";
       #binding-cells = <0>;
-      tapping-term-ms = <200>;
+      tapping-term-ms = <225>;
       bindings = <&kp LBKT>, <&kp RBKT>;
     };
     tdbc: tap_dance_braces {
       compatible = "zmk,behavior-tap-dance";
       label = "TAP_DANCE_BRACES";
       #binding-cells = <0>;
-      tapping-term-ms = <200>;
+      tapping-term-ms = <225>;
       bindings = <&kp LBRC>, <&kp RBRC>;
     };
   };
