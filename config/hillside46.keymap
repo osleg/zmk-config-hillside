@@ -145,9 +145,9 @@
     default_layer {
       label = "ENGRAM";
       bindings = <
-&none  &kp B    &kp Y    &kp O    &kp U    &kp SEMI                                  &kp COMMA &kp L    &kp D     &kp W    &kp V    &none
-&none  &kp C    &kp I    &kp E    &kp A    &kp APOS                                  &kp DOT   &kp H    &kp T     &kp S    &kp N    &none
-&none  &kp G    &kp X    &kp J    &kp K    &kp Z       &kp PG_UP  &kp PG_DN          &kp Q     &kp R    &kp M     &kp F    &kp P    &none
+&none  &kp B    &kp Y    &kp O    &kp U    &kp COLON                                     &kp LT     &kp L    &kp D     &kp W    &kp V    &none
+&none  &kp C    &kp I    &kp E    &kp A    &kp TILDE                                     &kp QMARK  &kp H    &kp T     &kp S    &kp N    &none
+&none  &kp G    &kp X    &kp J    &kp K    &kp DQT         &kp PG_UP  &kp PG_DN          &kp GT     &kp R    &kp M     &kp F    &kp P    &none
                      &kp LGUI &lt L_LOWER TAB  &kp SPC &kp RALT        &kp DEL &kp BSPC &lt L_RAISE ENTER &kp LCTRL  
       >;
       sensor-bindings = <&inc_dec_kp RIGHT LEFT &inc_dec_kp UP DOWN>;
@@ -164,7 +164,7 @@ _______  &kp Z    &kp X    &kp C    &kp V    &kp B            _______ _______   
       sensor-bindings = <&inc_dec_kp RIGHT LEFT &inc_dec_kp UP DOWN>;
     };
 
-    engram_layer {
+    dvorak_layer {
       label =  "DVORAK";
       bindings = <
 
@@ -180,8 +180,8 @@ _______       &kp SEMI    &kp Q     &kp J      &kp K    &kp X &kp PG_UP         
       label ="LOWER";
       bindings = <
 &kp ESC   &kp EXCL  &kp AT     &kp HASH  &kp DLLR  &kp PRCNT                                    &kp STAR  &kp N7    &kp N8    &kp N9    &kp KP_PLUS   _______
-_______   &kp CARET &kp AMPS   &kp UNDER &tdbk     &kp RBKT                                     &kp SLASH &kp N4    &kp N5    &kp N6    &kp KP_MINUS  _______
-_______   &kp COLON &kp PRCNT  &tdlg     &tdbc     &kp RBRC                _______ _______      &kp N0    &kp N1    &kp N2    &kp N3    &kp EQUAL     _______
+_______   &kp CARET &kp AMPS   &kp UNDER &kp LBKT  &kp RBKT                                     &kp SLASH &kp N4    &kp N5    &kp N6    &kp KP_MINUS  _______
+_______   &kp COLON &kp LT     &kp GT    &kp RBRC  &kp RBRC                _______ _______      &kp N0    &kp N1    &kp N2    &kp N3    &kp EQUAL     _______
                                 _______ _______ _______ _______                  _______    _______ &mo L_ADJUST _______ 
       >;
       sensor-bindings = <&inc_dec_kp RIGHT LEFT &inc_dec_kp UP DOWN>;
